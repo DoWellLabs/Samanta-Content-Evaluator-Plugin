@@ -14,7 +14,7 @@ Before running this app, make sure you have the following installed:
 
 - Node.js: The runtime environment for running JavaScript applications.
 - npm (Node Package Manager): A package manager that comes bundled with Node.js.
-- create a .env file in main directory and declear a variable name VITE_API_KEY="API-key"
+- create a .env file in main directory and declare a variable name VITE_API_KEY="Api-key"
 
 ## Getting Started
 
