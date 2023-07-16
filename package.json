@@ -1,0 +1,29 @@
+{
+  "name": "samanta-content-evaluator",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "src/main.jsx",
+  "scripts": {
+    "build": "wp-scripts build src/main.jsx",
+    "start": "wp-scripts start src/main.jsx",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "@wordpress/scripts": "^26.8.0",
+    "eslint": "^8.44.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.1",
+    "vite": "^4.4.0"
+  }
+}

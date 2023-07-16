@@ -1,0 +1,86 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+  --bg-color-main: rgb(141, 212, 145);
+  --bg-color-input: rgb(209, 209, 209);
+  --color-heading: rgb(65, 65, 65);
+  --color-paragraph: rgb(56, 56, 56);
+  --bg-form: rgb(147, 171, 207);
+  --bg-toggle-dot: rgb(73, 73, 73);
+  --color-border: rgb(112, 111, 111);
+}
+
+label,
+input,
+textarea,
+button {
+  color: var(--color-paragraph);
+  outline: none;
+  padding: 4px;
+}
+
+input,
+textarea{
+  background-color: var(--bg-color-input);
+  border-radius: 2px;
+  padding: 4px 10px;
+}
+input,
+textarea,
+input::placeholder,
+textarea::placeholder{
+  color: rgb(56, 56, 56);
+
+}
+.result p {
+  letter-spacing: 3px;
+  color: var(--color-heading);
+  font-weight: 600;
+}
+.result span {
+  letter-spacing: 2px;
+  color: var(--color-paragraph);
+  font-weight: 400;
+}
+
+.theme {
+  height: 80px;
+  position: absolute;
+  top: 0;
+  right: 40px;
+  left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.group button {
+  background-color: rgb(160, 160, 160);
+}
+.group button[data-aria-checked="true"] {
+  background-color: rgb(24, 122, 24);
+}
+.group button[data-aria-checked="false"] {
+  background-color: rgb(160, 160, 160);
+}
+.group button div {
+  transition: transform 300ms ease-out;
+}
+.group button[data-aria-checked="true"] div {
+  transform: translateX(20px);
+}
+.group button[data-aria-checked="false"] div {
+  transform: translateX(0px);
+}
+
+.dark {
+  --bg-color-main: rgb(10, 24, 10);
+  --bg-color-input: rgb(168, 168, 168);
+  --color-heading: rgb(255, 255, 255);
+  --color-paragraph: rgb(148, 148, 148);
+  --bg-form: rgb(28, 34, 44);
+  --bg-toggle-dot: rgb(192, 192, 192);
+  --color-border: rgb(189, 189, 189);
+}
+
