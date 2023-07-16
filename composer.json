@@ -1,0 +1,11 @@
+{
+  "name": "rohit/samanta-content-evaluator-plugin",
+  "autoload": {
+    "psr-4": {
+      "Rohit\\SamantaContentEvaluatorPlugin\\": "src/"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "require": {}
+}
