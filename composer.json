@@ -1,0 +1,15 @@
+{
+    "name": "teddy/samanta-content-evaluator",
+    "autoload": {
+        "psr-4": {
+            "Teddy\\SamantaContentEvaluator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tewodros Abebe",
+            "email": "teddyab729@gmail.com"
+        }
+    ],
+    "require": {}
+}
