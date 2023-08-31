@@ -1,3 +1,3 @@
-<div id="samanta-content-evaluator">
+<div id="samanta">
     <h2>Loading...</h2>
 </div> 

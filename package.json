@@ -1,23 +1,24 @@
 {
-  "name": "samanta-content-evaluator",
+  "name": "samanta_content_evaluator_plugin",
   "version": "1.0.0",
-  "description": "",
+  "description": "Content Evaluator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "wp-scripts build",
     "start": "wp-scripts start"
   },
+  "keywords": [],
   "author": "DoWell, Tewodros Abebe",
   "license": "ISC",
-  "dependencies": {
-    "react-icons": "^4.10.1"
-  },
   "devDependencies": {
-    "@wordpress/scripts": "^26.9.0",
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.27",
-    "postcss-cli": "^10.1.0",
+    "@wordpress/scripts": "^26.11.0",
     "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.28",
+    "postcss-cli": "^10.1.0",
+    "react-icons": "^4.10.1"
   }
 }

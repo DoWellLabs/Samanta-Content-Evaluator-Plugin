@@ -22,7 +22,7 @@ function Home() {
   const handleApiRequest = async () => {
     try {
       setIsLoading(true);
-      const apiKey = process.env.REACT_APP_API_KEY;
+      // const apiKey = process.env.REACT_APP_API_KEY;
       const payload = {
         content: inputValue,
         title: title,
@@ -30,7 +30,7 @@ function Home() {
 
       // Call the process module service API
       const moduleServiceResponse = await axios.post(
-        `https://100105.pythonanywhere.com/api/v3/process-services/?type=module_service&api_key=${apiKey}`,
+        `https://100105.pythonanywhere.com/api/v3/process-services/?type=module_service&api_key=12c4491a-2dec-418e-9ef4-a1f1f5e2e541`,
         {
           sub_service_ids: ["DOWELL100342"],
           service_id: "DOWELL10034",
@@ -40,7 +40,7 @@ function Home() {
       if (moduleServiceResponse.data.success) {
         // Call the Samanta Content Evaluator API
         const response = await axios.post(
-          `https://100085.pythonanywhere.com/uxlivinglab/v1/content-scan/${apiKey}/`,
+          `https://100085.pythonanywhere.com/uxlivinglab/v1/content-scan/12c4491a-2dec-418e-9ef4-a1f1f5e2e541/`,
           payload
         );
 
