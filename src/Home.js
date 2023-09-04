@@ -221,14 +221,13 @@ function Home() {
                   <div className="pl-2 font-bold">inactive</div>
                 </div>
 
-                <div className="flex items-center justify-center bg-slate-700 text-white hover:bg-green-600 rounded-sm p-2">
-                  <button
-                    className="text-xs font-serif font-semibold tracking-wider"
-                    // onClick={() => setTheme("light")}
-                  >
-                    Buy Credits
-                  </button>
-                </div>
+                <a href="https://dowellstore.org/pricing/" target="blank">
+                  <div className="flex items-center justify-center bg-slate-700 text-white hover:bg-green-600 rounded-sm p-2">
+                    <button className="text-xs font-serif font-bold tracking-wider">
+                      Buy Credits
+                    </button>
+                  </div>
+                </a>
               </div>
             )}
           </div>
