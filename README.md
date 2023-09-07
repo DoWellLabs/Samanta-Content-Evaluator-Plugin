@@ -1,6 +1,6 @@
-## Samanta Content Evaluator Documentation
+# Samanta Content Evaluator Documentation
 
-# Introduction
+## Introduction
 
 Welcome to the documentation for **Samanta Content Evaluator**, an innovative tool designed to evaluate the quality of content using the DoWell API. This document will guide you through the setup, features, and usage of the application.
 What is Samanta Content Evaluator
@@ -15,7 +15,7 @@ Samanta Content Evaluator is a powerful tool that leverages the DoWell API to as
 - Link to the Plugin :
   If you're looking to integrate Samanta Content Evaluator as a WordPress plugin, you can find it in the WordPress Plugin Directory by searching for "Samanta Content Evaluator" or by visiting the following link: https://www.uxlivinglab.net/samantacontentevaluator/wp-admin/admin.php?page=samanta .
 
-# Getting Started
+## Getting Started
 
 System Requirements
 
@@ -42,7 +42,7 @@ Content Quality Assessment
 - Integrated with the DoWell credit system.
 - Monitor credit status in the application settings.
 
-# Usage
+## Usage
 
 Accessing the Application
 
@@ -64,7 +64,7 @@ Content Quality Assessment Usage
 9. Use this information to determine the number of content evaluations you can perform.
    “25 Credit per one Content Check”
 
-# Troubleshooting
+## Troubleshooting
 
 Common Issues
 
