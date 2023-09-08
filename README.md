@@ -13,7 +13,7 @@ Using Samanta Content Evaluator is easy! Here's a step-by-step guide to get you 
 Step 1: Accessing the Application
 
 - To begin, open your internet browser (like Google Chrome or Firefox).
-- Type in or click on this link: www.samantacontentevaluator.com](https://www.samantacontentevaluator.com) .
+- Type in or click on this link: https://www.uxlivinglab.net/samantacontentevaluator/wp-admin/admin.php?page=samanta .
 
 Step 2: Content Quality Assessment
 
@@ -40,8 +40,9 @@ Step 5: Checking Your Credits
 
 That's it! You've successfully used Samanta Content Evaluator to assess your text.
 
-Where to Get Samanta Content Evaluator
-You can access Samanta Content Evaluator by visiting our website at www.samantacontentevaluator.com](https://www.samantacontentevaluator.com) . If you use WordPress, you can find it in the WordPress Plugin Directory by searching for "Samanta Content Evaluator."
+# Where to Get Samanta Content Evaluator
+
+- You can access Samanta Content Evaluator by visiting our website at https://www.uxlivinglab.net/samantacontentevaluator/wp-admin/admin.php?page=samanta . If you use WordPress, you can find it in the WordPress Plugin Directory by searching for "Samanta Content Evaluator."
 
 # Troubleshooting
 
